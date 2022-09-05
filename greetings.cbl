@@ -1,0 +1,13 @@
+       IDENTIFICATION DIVISION. 
+       PROGRAM-ID. GREETINGS.
+       AUTHOR. M.Prodhan.
+      *
+       DATA DIVISION.
+       WORKING-STORAGE SECTION. 
+       01 WSTRING PIC X(25) VALUE SPACES.
+      *
+       PROCEDURE DIVISION.
+       000-MAIN-PROCESS.
+           ACCEPT WSTRING.
+           DISPLAY 'Hi ' WSTRING.
+           STOP RUN.
